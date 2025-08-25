@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stephen Cohay | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">SC</h1>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="home">
+    <h2>Hello, I'm Stephen Cohay 👋</h2>
+    <p class="tagline">A 22-year-old aspiring Web Developer and Creative Designer.</p>
+    <a href="#contact" class="cta">Let’s Work Together!</a>
+  </section>
+
+  
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m Stephen Cohay, a passionate learner and web developer. 
+      I enjoy turning ideas into functional, responsive, and creative websites. 
+      Aside from coding, I love playing basketball 🏀, drawing 🎨, and listening to music 🎶.
+    </p>
+    <ul>
+      <li><strong>Skills:</strong> HTML, CSS, JavaScript, React, Firebase</li>
+      <li><strong>Interests:</strong> Web Development, Art & Design, Technology</li>
+      <li><strong>Hobbies:</strong> Basketball, Drawing, Music</li>
+    </ul>
+  </section>
+
+  
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <img src="ben10.png" alt="Landing Page Project">
+      <h3>Dynamic Landing Page</h3>
+      <p>
+        A modern landing page built with React, Tailwind CSS, and Firebase. 
+        Features include dark mode, an image slider, and a contact form.
+      </p>
+    </div>
+    <div class="project-card">
+      <img src="cohay.png" alt="Portfolio Project">
+      <h3>Responsive Portfolio Website</h3>
+      <p>
+        A personal portfolio designed with HTML, CSS, and JavaScript. 
+        Fully responsive with smooth scroll, animations, and a contact form.
+      </p>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Or reach me via: 
+      <a href="mailto:stephencohay05@gmail.com">Email</a> | 
+      <a href="https://www.linkedin.com/in/stephen-cohay-101684308/">LinkedIn</a> | 
+      <a href="https://github.com/user030501">GitHub</a>
+    </p>
+  </section>
+
+  
+  <footer>
+    <p>© 2025 Stephen Cohay </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
